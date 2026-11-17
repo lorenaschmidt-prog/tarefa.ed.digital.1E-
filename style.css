@@ -20,15 +20,15 @@
     --cor-card: #2b2530;
 }
     body{
-    background-color: rgb(242, 239, 245);
-    color: rgb(0, 3, 3);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header{
-    background-color: rgb(172, 21, 41);
-    color: rgb(255, 228, 196);
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -38,7 +38,7 @@ h1{
 }
 
 h2{
-    color: rgb(255, 228, 196);
+    color: var(--cor-principal);
 }
 
 p{
@@ -51,9 +51,9 @@ margin-top: 20px;
 }
 
 nav a {
-color: white;
+color: var(--cor-clara);
 text-decoration: none;
-background-color: #6d0a17;
+background-color: var(--cor-secundaria);
 padding: 10px 15px;
 border-radius: 8px;
 margin: 5px;
@@ -61,7 +61,7 @@ display: inline-block;
 }
 
 nav a:hover {
-background-color: #6d0a17;
+background-color: var(--cor-hover);
 }
 
 main {
@@ -70,7 +70,7 @@ main {
 }
 
 section {
-    background-color:white;
+    background-color:var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -87,15 +87,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-background-color: #b80018;
+background-color: var(--cor-card);
 padding: 15px;
 margin: 15px 0;
-border-left: 6px solid #610404;
+border-left: 6px solid var(--cor-principal);
 border-radius: 10px;
 }
 
@@ -104,16 +104,16 @@ margin-top: 0;
 }
 
 footer {
-background-color: #222222;
-color: white;
+background-color: var(--cor-roddape);
+color: var(--cor-clara);
 text-align: center;
 padding: 20px;
 margin-top: 30px;
 }
 
 button {
-    background-color: #610404;
-    color: white;
+    background-color: var(--cor-principal);
+    color: (--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -122,15 +122,13 @@ button {
 }
 
 button:hover{
-    background: #ff0022;
+    background: var(--cor-hover);
 
 }
 
 .curtir{
     display: block;
-
     width: fit-content;
-
     margin: 20px auto;
     
 }
